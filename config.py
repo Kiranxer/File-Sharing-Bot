@@ -36,7 +36,7 @@ JOIN_REQUEST_ENABLE = os.environ.get("JOIN_REQUEST_ENABLED", None)
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_PIC = os.environ.get("START_PIC","")
+START_PIC = os.environ.get("START_PIC","https://i.imgur.com/3YEJsOn.jpeg")
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
@@ -52,7 +52,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
 #set True if you want to prevent users from forwarding files from bot
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
 
 # Auto delete time in seconds.
 AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", "0"))

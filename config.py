@@ -11,10 +11,10 @@ load_dotenv()
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8834179148:AAH1lFOOK9M-yK9uz1YUX-aLQ59pyvmP4As")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "20878490"))
+APP_ID = int(os.environ.get("APP_ID", "32803246"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "ff6fd47c6ec0989b9d4a435e17f29881")
+API_HASH = os.environ.get("API_HASH", "87759cd9acc932bc70413bbb1f65b259")
 
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002840527179"))
